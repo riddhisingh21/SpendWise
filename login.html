@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login_style.css">
+</head>
+<body>
+    <div class="login-box">
+        <img src="Screenshot (168).png" alt="Logo" class="logo"> 
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <div id="captcha-box">
+                <span id="question"></span>
+                <input type="text" id="answer" name="answer" required placeholder="Your answer">
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <p id="message"></p>
+        <div class="option">
+            <a href="#" id="forgot">Forgot Password?</a>
+            <span>or</span>
+            <a href="#" id="signup">Sign Up</a>
+        </div>
+        <div class="login">
+            <p>Or login with:</p>
+            <button class="facebook">Facebook</button>
+            <button class="google">Google</button>
+            <button class="twitter">Twitter</button>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

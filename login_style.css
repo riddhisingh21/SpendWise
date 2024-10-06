@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  background: url('tryss.png') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  padding: 40px;
+  border-radius: 15px;
+  width: 350px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: rgba(58, 61, 61, 0.9);
+}
+
+.logo {
+  width: 250px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  color: white;
+  font-size: 14px;
+  text-align: left;
+}
+
+input[type="text"], 
+input[type="password"], 
+#answer {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+button {
+  background-color: #FFFFFF;
+  color: #0E6251;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #D5D8DC;
+}
+
+#message {
+  color: red;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.option {
+  margin-top: 20px;
+}
+
+.option a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 0 5px;
+}
+
+.option span {
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.login {
+  margin-top: 20px;
+}
+
+.social-login p {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.facebook {
+  background-color: #3b5998;
+  color: #FFFFFF;
+}
+
+.google {
+  background-color: #db4437;
+  color: #FFFFFF;
+}
+
+.twitter {
+  background-color: #1da1f2;
+  color: #FFFFFF;
+}
+
+#captcha-box {
+  margin-top: 15px;
+  color: white;
+}
+
+#cquestion {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
